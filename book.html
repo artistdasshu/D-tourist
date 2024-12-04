@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Tour</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="logo">D-Tourist</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="destinations.html">Destinations</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book.html" class="btn-book">Book Now</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="booking-page">
+            <h1>Book Your Tour with D.S.</h1>
+            <form action="#" method="POST">
+                <label for="tour">Select a Tour:</label><br>
+                <select id="tour" name="tour" required>
+                    <option value="paris">Paris Tour</option>
+                    <option value="new-york">New York City</option>
+                    <option value="tokyo">Tokyo Adventure</option>
+                    <option value="dubai">Dubai</option>
+                    <option value="london">London</option>
+                    <option value="indonesia">Indonesia</option>
+                    <option value="singapur">Singapur</option>
+                    <option value="malasiya">Malasiya</option>
+                </select>
+                <div style="margin: 10px;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name"></input>
+                </div>
+                <div>
+                    <label for="no.-of-people">Number of People:</label>
+                    <input type="number" id="no.-of-people" name="no.-of-people"></input>
+                </div>
+                <div>
+                    <label for="dates">Choose Dates:</label>
+                    <input type="date" id="dates" name="dates" required>
+                </div>
+                <div>
+                    <label for="comment">Additional Comments:</label>
+                    <textarea id="comment" name="comment" rows="5" cols="30"></textarea>
+                </div>
+                <div>
+                    <button type="submit" class="btn-submit">Confirm Booking</button>
+                </div>
+            </form>
+            <p style="text-align: right;color: rgb(165, 165, 165);">D-Tourist</p>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 D-Tourist. All rights reserved. | Created with ❤️ by <a class="my-name" id="my-name"
+                href="https://github.com/artistdasshu">Dasshu</a></p>
+    </footer>
+
+</body>
+
+</html>
