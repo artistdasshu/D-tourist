@@ -21,4 +21,4 @@ document.querySelectorAll('.destination').forEach((destination) => {
   });
 });
 
-alert('Hey Welcome to Webpage, if you wanted to create or to learn how to create like this, contact me, information is at the bottom.');
+alert('Hello, and welcome to my website. If you want to create one or learn how to code one like this, feel free to get in touch with me.');
