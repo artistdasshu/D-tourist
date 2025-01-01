@@ -21,4 +21,4 @@ document.querySelectorAll('.destination').forEach((destination) => {
   });
 });
 
-alert('This is computer project given by Dhiren Sir, made by Dashrath Suthar, class 10 student at Royal Rajasthan Public School.');
+alert('Hey Welcome to Webpage, if you wanted to create or to learn how to create like this, contact me, information is at the bottom.');
