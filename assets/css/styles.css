@@ -575,3 +575,9 @@ footer p {
   .destination a.btn-cta:hover {
     background-color: #ff00b3;
   }
+
+.schedule-page caption {
+    font-size:40px;
+    font-weight:bold;
+    color:#ff00b3;
+}
