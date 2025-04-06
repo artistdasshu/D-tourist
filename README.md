@@ -7,3 +7,4 @@ Contact
 Instagram : @artistdasshu  (https://www.instagram.com/artistdasshu/)                                                                                         
 Telegram  : @artistdasshu                                                                                        
 Gmail     : artistdasshu@gmail.com                                                                                     
+Pinterest : @artistdasshu
